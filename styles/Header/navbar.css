@@ -1,0 +1,120 @@
+.menu-icon {
+    color: rgb(7, 1, 1);
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 30px;
+    right: -100%;
+    transition: 0.4s;
+}
+
+.nav-menu-items {
+    list-style: none;
+    position: absolute;
+    top: -29px;
+    z-index: -1;
+    width: 300px;
+    right: -11px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-menu-items li {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.nav-menu-icons {
+    font-size: 18px;
+}
+
+.active {
+    right: 10px;
+}
+
+.navbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: block;
+    }
+
+    .menu-icon {
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 25px;
+        right: 43px;
+        cursor: pointer;
+        z-index: 234567890;
+    }
+
+    .nav-menu-items {
+        list-style: none;
+        background: #159600;
+        position: absolute;
+        top: -29px;
+        z-index: 123456;
+        width: 330px;
+        right: -11px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #fff;
+        box-shadow: 0 3px 30px black;
+        flex-direction: column;
+    }
+
+    .nav-menu-items li {
+        padding: 20px;
+        color: white;
+        text-transform: uppercase;
+        transition: .4s;
+    }
+
+    .nav-menu-items li {
+        transform: scale(1.1);
+    }
+
+    .burger-general__square {
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+
+.burger-general__square {
+    width: 100%;
+    height: 46px;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.burger-general__square i {
+    font-size: 22px;
+    padding: 0 7px;
+    color: white;
+}
+
+.burger-general__square a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}

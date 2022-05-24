@@ -1,0 +1,106 @@
+.hero {
+  //background: url("../../assets/img/bg.png") no-repeat center/cover;
+  //background: rgba(124, 26, 204, 0.79);
+  padding-top: 130px;
+  .hero-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+  &-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      color: white;
+      font-size: 68px;
+      width: 564px;
+      margin-bottom: 40px;
+    }
+    &__desc {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+      margin-bottom: 40px;
+      width: 550px;
+    }
+    &__square {
+      a {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 0 20px 0 0;
+      }
+    }
+    &__btn {
+      width: 264px;
+      height: 64px;
+      background: #ffffff;
+      font-size: 20px;
+      color: green;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      border: 2px solid #ffffff;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: .4s;
+      margin: 70px 0 100px 0;
+
+      &:hover {
+        background: transparent;
+        color: white;
+        transform: scale(1.1);
+      }
+    }
+    &__img {
+      position: absolute;
+      right: 0;
+      top: 80px;
+      animation: porter 2s alternate;
+      height: 668px;
+      overflow: hidden;
+    }
+    @keyframes porter {
+      0% {
+        transform: translateX(1000px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    &__bg {
+      top: 0;
+      right: 0;
+      position: absolute;
+    }
+    &__what {
+      position: fixed;
+      z-index: 11;
+      right: 80px;
+      bottom: 10px;
+      animation: .7s fix infinite ease-in-out;
+
+      @keyframes fix {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+    &__mobile {
+      display: none;
+    }
+  }
+}

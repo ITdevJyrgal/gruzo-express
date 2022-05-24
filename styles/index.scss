@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;400;600;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Tapestry&family=Water+Brush&display=swap');
+
+
+
+@import "./../styles/Header/header";
+@import "./../styles/Hero/hero";
+@import "./../styles/Advan/advan";
+@import "./../styles/Services/services";
+@import "./../styles/work/work";
+@import "./../styles/Form/form";
+@import "./../styles/Description/description";
+@import "./../styles/Rates/rates";
+@import "./../styles/Footer/footer";
+
+//-----------media----------//
+
+@import "./../media/Header/headermedia";
+@import "../media/Hero/heromedia";
+@import "./../media/Services/servicesmedia";
+@import "./../media/Work/workmedia";
+@import "./../media/Advan/advanmedia";
+@import "./../media/Form/formmedia";
+@import "./../media/Description/description";
+@import "./../media/Footer/footermedia";
+@import "./../media/Rates/ratesmedia";
+
+//-----------media----------//
+
+
+//-------------icons------------//
+@import "./../styles/icons.css";
+//-------------icons------------//
+
+
+
+@import "./../styles/Header/navbar.css";

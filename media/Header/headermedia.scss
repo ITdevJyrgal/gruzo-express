@@ -1,0 +1,38 @@
+@media (max-width: 1440px) {
+ .container {
+   width: 90%;
+ }
+
+}
+
+@media (max-width: 769px) {
+  .header-general__nav {
+    display: none;
+  }
+
+  .header-general__square {
+    display: none;
+  }
+  .header-general__square2 {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .header-general__logo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #080669;
+  }
+  .header-general__logo__logo {
+    color: #0166FF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: -10px;
+  }
+}
+

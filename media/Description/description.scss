@@ -1,0 +1,47 @@
+@media (max-width: 1024px) {
+  #description .description-general__desc {
+    font-size: 18px;
+  }
+
+  #description .description-general__nap {
+    font-size: 30px;
+  }
+  #description .description-general__title {
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #description .description-general__contact a {
+    font-size: 26px;
+  }
+  #description .description-general__desc {
+    font-size: 18px;
+  }
+  #description .description-general__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 426px) {
+  #description .description-general__desc {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  #description .description-general__contact a {
+    font-size: 24px;
+  }
+
+  #description .description-general__seti i {
+    padding: 0 29px;
+    transition: .4s;
+  }
+}

@@ -1,0 +1,194 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-general__btn {
+    margin: 17px 0 100px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero .hero-img {
+    display: none;
+  }
+  .hero {
+    background: #159600;
+    padding: 130px 0 0 0;
+  }
+  .hero-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-general__img {
+    position: relative;
+    right: -89px;
+    top: -161px;
+    animation: porter 2s alternate;
+    height: 668px;
+    overflow: hidden;
+  }
+  .advan .advan-general__square {
+    margin: 20px 20px;
+  }
+  .advan .advan-general__block {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-general__img {
+    right: -74px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-general__img {
+    top: 10px;
+    right: -37px;
+  }
+  .hero-general__what {
+    display: none;
+  }
+
+  .hero-general__square {
+    display: none;
+  }
+
+  .hero-general__btn {
+    display: none;
+  }
+  .hero-general__mobile {
+    display: block;
+    position: absolute;
+    div {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      right: 30px;
+      z-index: 999;
+      bottom: 50px;
+      span {
+        i {
+          color: #ababab;
+          padding: 20px 0;
+          font-size: 80px;
+          text-shadow:0 14px 30px black;
+          animation: 2s fixe infinite ease-in-out;
+          @keyframes fixe {
+            0% {
+              text-shadow:0 14px 30px black;
+            }
+            50% {
+              text-shadow:0 10px 0 black;
+            }
+            100% {
+              text-shadow:0 14px 30px black;
+            }
+          }
+        }
+      }
+    }
+    button {
+      width: 341px;
+      height: 70px;
+      background: #FFFFFF;
+      border-radius: 13px;
+      color: #159600;
+      font-size: 30px;
+      border: 1px solid #159600;
+      margin-top: 43rem;
+      transition: .4s;
+      &:hover {
+        background: transparent;
+        color: white;
+        border: 1px solid #fff;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+  .hero-general__mobile button {
+    margin-top: 35rem;
+  }
+  .hero-general__img {
+    right: -27px;
+    height: 520px;
+  }
+  .advan .advan-general__block {
+    width: 100%;
+    padding: 30px 5rem;
+  }
+}
+
+@media (max-width: 451px) {
+.hero-general {
+  div {
+    span {
+      justify-content: center;
+      display: flex;
+      width: 90%;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 40px;
+    }
+    }
+  }
+  .hero-general__title {
+    font-size: 43px;
+    width: 90%;
+  }
+  .hero-general__desc {
+    font-size: 14px;
+    width: 100%;
+  }
+  .hero-general__img {
+    right: -19px;
+    height: 520px;
+  }
+}
+
+
+@media (max-width: 426px) {
+
+}
+
+@media (max-width: 415px) {
+  .hero-general div span {
+    width: 90%;
+    padding-left: 40px;
+  }
+  .hero-general__title {
+    font-size: 43px;
+    width: 100%;
+  }
+  .hero-general__img {
+    right: -17px;
+    height: 520px;
+  }
+}
+
+@media (max-width: 376px) {
+  .hero-general div span {
+    width: 90%;
+    padding-left: 10px;
+  }
+  .hero-general__img {
+    right: -17px;
+    height: 520px;
+  }
+  .hero-general__mobile div span i {
+    font-size: 65px;
+  }
+}
+@media (max-width: 320px) {
+
+}

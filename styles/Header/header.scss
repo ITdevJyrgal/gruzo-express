@@ -1,0 +1,42 @@
+.header {
+  padding: 15px 0;
+  position: fixed;
+  background: rgba(2, 105, 21, 0.61);
+  backdrop-filter: blur(14px);
+  width: 100%;
+  z-index: 23456;
+
+  &-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      color: #080669;
+
+      &__logo {
+        color: #0166FF;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        margin-left: -10px;
+      }
+    }
+
+    &__nav {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+      padding: 0 20px;
+    }
+
+  }
+}
+

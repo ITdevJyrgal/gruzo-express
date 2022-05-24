@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+  .rates-general__general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .rates-general__block p {
+    padding: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+  }
+  .rates-general__block2 p {
+    padding: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+  }
+  .rates-general__block3 p {
+    padding: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .rates-general__general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .rates-general__general {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .rates-general__block {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .rates-general__block2 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .rates-general__block3 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .rates-general__block3 p {
+    padding: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: black;
+  }
+
+  .rates-general__block2 p {
+    padding: 0 15px;
+    font-size: 10px;
+  }
+
+  .rates-general__block p {
+    padding: 0 15px;
+    font-size: 10px;
+  }
+
+  .rates-general__general {
+    width: 100%;
+    margin-left: 0;
+    div {
+      width: 100%;
+    }
+  }
+}
