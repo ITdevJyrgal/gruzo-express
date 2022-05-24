@@ -75,20 +75,21 @@
       bottom: 50px;
       span {
         i {
-          color: #ababab;
+          color: #AED36C;
           padding: 20px 0;
           font-size: 80px;
-          text-shadow:0 14px 30px black;
+          filter: drop-shadow(0 2px 3px #295D09);
+          text-shadow:0 14px 30px #295D09;
           animation: 2s fixe infinite ease-in-out;
           @keyframes fixe {
             0% {
-              text-shadow:0 14px 30px black;
+              text-shadow:0 14px 30px #295D09;
             }
             50% {
-              text-shadow:0 10px 0 black;
+              text-shadow:0 10px 0 #295D09;
             }
             100% {
-              text-shadow:0 14px 30px black;
+              text-shadow:0 14px 30px #295D09;
             }
           }
         }
@@ -157,10 +158,6 @@
 }
 
 
-@media (max-width: 426px) {
-
-}
-
 @media (max-width: 415px) {
   .hero-general div span {
     width: 90%;
@@ -171,7 +168,7 @@
     width: 100%;
   }
   .hero-general__img {
-    right: -17px;
+    right: -21px;
     height: 520px;
   }
 }
@@ -182,7 +179,7 @@
     padding-left: 10px;
   }
   .hero-general__img {
-    right: -17px;
+    right: -19px;
     height: 385px;
   }
   .hero-general__mobile div span i {
