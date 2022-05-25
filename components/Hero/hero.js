@@ -15,9 +15,8 @@ export default function Hero() {
                 <div className="hero-general">
                     <div>
                         <span>
-                            <h1 className="hero-general__title">Переезжаете?</h1>
-                        <p className="hero-general__desc">ТОГДА С НАС ТРАНСПОРТ С ОПЫТНЫМ ВОДИТЕЛЕМ И ПОМОШНИКИ В ГОРОДЕ
-                            БИШКЕК</p>
+                            <h1 className="hero-general__title">Грузо перевозки</h1>
+                        <p className="hero-general__desc">По всем Кыргызстанам </p>
                         </span>
                         <div>
 
