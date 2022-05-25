@@ -200,6 +200,11 @@
   .hero-general__mobile div a i {
     font-size: 50px;
   }
+  .hero-general__square a {
+    color: #fff;
+    font-size: 25px;
+    padding: 0 20px 0 0;
+  }
 }
 
 
@@ -207,6 +212,11 @@
   .hero-general div span {
     width: 90%;
     padding-left: 10px;
+  }
+  .hero-general__square a {
+    color: #fff;
+    font-size: 23px;
+    padding: 0 20px 0 0;
   }
   .hero-general__img {
     right: -19px;
