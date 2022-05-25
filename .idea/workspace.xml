@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b2e90774-2f6d-469b-968f-7d6a2b7c1747" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/media/Hero/heromedia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/media/Hero/heromedia.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Services/servicesmedia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/media/Services/servicesmedia.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1653371902567" duration="6829000" />
       <workItem from="1653397937032" duration="143000" />
       <workItem from="1653402573883" duration="317000" />
-      <workItem from="1653454375733" duration="6379000" />
+      <workItem from="1653454375733" duration="6695000" />
     </task>
     <servers />
   </component>

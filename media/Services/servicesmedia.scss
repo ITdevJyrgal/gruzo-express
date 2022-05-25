@@ -61,6 +61,7 @@
     right: 10px;
     z-index: 234;
   }
+
   #services .services-general__block__square div {
     position: absolute;
     z-index: 234;
@@ -70,7 +71,7 @@
     -o-object-fit: contain;
     object-fit: contain;
     top: 10px;
-    left: 30px;
+    left: 10px;
     display: flex;
     justify-content: center;
   }
@@ -90,10 +91,7 @@
 }
 
 @media (max-width: 375px) {
-  #services .services-general__block__square div {
-    width: 250px;
-    top: 10px;;
-  }
+
   #services .services-general__title2 {
     font-weight: 700;
     font-size: 31px;
@@ -105,17 +103,6 @@
 
 
 @media (max-width: 320px) {
-  #services .services-general__block__square div {
-    position: absolute;
-    z-index: 234;
-    top: 10px;
-    width: 175px;
-    -o-object-fit: contain;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-  }
-
   #services .services-general__title h1 {
     width: 90%;
     margin-bottom: -33px;
