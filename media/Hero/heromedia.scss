@@ -164,7 +164,11 @@
     height: 520px;
   }
   .hero-general__mobile div a {
-    padding: 0 68px;
+    padding: 0 0 0 270px;
+  }
+  .hero-general__mobile div a i {
+    color: #AED36C;
+    font-size: 63px;
   }
 }
 
@@ -182,14 +186,16 @@
     right: -21px;
     height: 520px;
   }
-  .hero-general__mobile div a {
-    padding: 0 0;
+
+  .hero-general__mobile div a i {
+    padding: 0 259px 0 0;
+    font-size: 50px;
   }
 }
 
 @media (max-width: 426px) {
   .hero-general__mobile div a {
-    padding: 0 52px;
+    padding: 0 0;
   }
 }
 @media (max-width: 376px) {
@@ -201,15 +207,13 @@
     right: -19px;
     height: 385px;
   }
-  .hero-general__mobile div span i {
-    font-size: 65px;
-  }
+
   .hero-general__mobile button {
     margin-top: 27rem;
   }
-  .hero-general__mobile div a {
-    //padding: 0 -9px;
-    margin: 0 -9px;
+  .hero-general__mobile div a i {
+    padding: 0 0 0 233px;
+    font-size: 50px;
   }
 }
 

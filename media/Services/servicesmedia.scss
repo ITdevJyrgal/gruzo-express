@@ -61,6 +61,19 @@
     right: 10px;
     z-index: 234;
   }
+  #services .services-general__block__square div {
+    position: absolute;
+    z-index: 234;
+    width: 193px;
+    height: 120px;
+    border-radius: 10px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    top: 10px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 426px) {

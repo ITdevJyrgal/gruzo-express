@@ -1,5 +1,5 @@
 import Image from "next/image"
-import na from "./../../assets/img/na.png"
+import na from "./../../assets/img/ut.png"
 import cha from "./../../assets/img/cha.png"
 import ch from "./../../assets/img/width.png"
 import phone from "./../../assets/img/phone.png"
