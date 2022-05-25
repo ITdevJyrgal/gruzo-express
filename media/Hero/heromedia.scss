@@ -164,14 +164,22 @@
     height: 520px;
   }
   .hero-general__mobile div a {
-    padding: 0 0 0 270px;
+    margin: 0px -72px 0 310px;
   }
   .hero-general__mobile div a i {
     color: #AED36C;
-    font-size: 63px;
+    font-size: 43px;
+  }
+  .hero-general__square {
+    display: block;
   }
 }
 
+@media (max-width: 426px) {
+  .hero-general__mobile div a {
+    margin: 0px -76px 0 298px;
+  }
+}
 
 @media (max-width: 415px) {
   .hero-general div span {
@@ -186,18 +194,15 @@
     right: -21px;
     height: 520px;
   }
-
+  .hero-general__mobile div a {
+    margin: 0px -76px 0 275px;
+  }
   .hero-general__mobile div a i {
-    padding: 0 259px 0 0;
     font-size: 50px;
   }
 }
 
-@media (max-width: 426px) {
-  .hero-general__mobile div a {
-    padding: 0 0;
-  }
-}
+
 @media (max-width: 376px) {
   .hero-general div span {
     width: 90%;
@@ -209,11 +214,14 @@
   }
 
   .hero-general__mobile button {
-    margin-top: 27rem;
+    margin-top: 31rem;
   }
   .hero-general__mobile div a i {
     padding: 0 0 0 233px;
     font-size: 50px;
+  }
+  .hero-general__mobile div a {
+    margin: 0px -76px 0 7px;
   }
 }
 

@@ -54,7 +54,7 @@ export default function Hero() {
                             <a href="tel:0706-00-10-14"><i className="fa-solid fa-square-phone"></i></a>
                             <a href="https://wa.me/message/T5LHXZGIZVIZM1"><i className="fab fa-whatsapp"></i></a>
                         </div>
-                        <button>Вызвать</button>
+                        <a href="tel:0706-00-10-14"> <button>Вызвать</button></a>
                     </div>
                 </div>
             </div>
