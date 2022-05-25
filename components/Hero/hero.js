@@ -50,8 +50,8 @@ export default function Hero() {
                 </div>
                 <div className="hero-general__mobile">
                     <div>
-                        <span><i className="fab fa-telegram"></i></span>
-                        <span><i className="fab fa-whatsapp"></i></span>
+                        <a href="#"><i className="fa-solid fa-square-phone"></i></a>
+                        <a href="#"><i className="fab fa-whatsapp"></i></a>
                     </div>
                     <button>Вызвать</button>
                 </div>

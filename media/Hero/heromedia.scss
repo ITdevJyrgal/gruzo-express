@@ -66,35 +66,39 @@
   .hero-general__mobile {
     display: block;
     position: absolute;
+
     div {
       display: flex;
-      flex-direction: column;
+      justify-content: space-between;
       position: fixed;
+      align-items: center;
       right: 30px;
       z-index: 999;
       bottom: 50px;
-      span {
+
+      a {
+        padding: 0 125px;
         i {
           color: #AED36C;
-          padding: 20px 0;
           font-size: 80px;
           filter: drop-shadow(0 2px 3px #295D09);
-          text-shadow:0 14px 30px #295D09;
+          text-shadow: 0 14px 30px #295D09;
           animation: 2s fixe infinite ease-in-out;
           @keyframes fixe {
             0% {
-              text-shadow:0 14px 30px #295D09;
+              text-shadow: 0 14px 30px #295D09;
             }
             50% {
-              text-shadow:0 10px 0 #295D09;
+              text-shadow: 0 10px 0 #295D09;
             }
             100% {
-              text-shadow:0 14px 30px #295D09;
+              text-shadow: 0 14px 30px #295D09;
             }
           }
         }
       }
     }
+
     button {
       width: 341px;
       height: 70px;
@@ -105,6 +109,7 @@
       border: 1px solid #159600;
       margin-top: 43rem;
       transition: .4s;
+
       &:hover {
         background: transparent;
         color: white;
@@ -128,19 +133,22 @@
     width: 100%;
     padding: 30px 5rem;
   }
+  .hero-general__mobile div a {
+    padding: 0 54px;
+  }
 }
 
 @media (max-width: 451px) {
-.hero-general {
-  div {
-    span {
-      justify-content: center;
-      display: flex;
-      width: 90%;
-      align-items: center;
-      flex-direction: column;
-      padding-left: 40px;
-    }
+  .hero-general {
+    div {
+      span {
+        justify-content: center;
+        display: flex;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 40px;
+      }
     }
   }
   .hero-general__title {
@@ -155,6 +163,9 @@
     right: -19px;
     height: 520px;
   }
+.hero-general__mobile div a {
+  padding: 0 12px;
+}
 }
 
 
@@ -173,6 +184,17 @@
   }
 }
 
+@media (max-width: 426px) {
+  .hero-general__mobile div a {
+    padding: 0 4px;
+  }
+}
+
+@media (max-width: 415px) {
+  .hero-general__mobile div a {
+    padding: 0 0;
+  }
+}
 @media (max-width: 376px) {
   .hero-general div span {
     width: 90%;
@@ -188,7 +210,12 @@
   .hero-general__mobile button {
     margin-top: 27rem;
   }
+  .hero-general__mobile div a {
+    //padding: 0 -9px;
+    margin: 0 -9px;
+  }
 }
+
 @media (max-width: 320px) {
 
 }
