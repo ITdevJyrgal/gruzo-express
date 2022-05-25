@@ -163,9 +163,9 @@
     right: -19px;
     height: 520px;
   }
-.hero-general__mobile div a {
-  padding: 0 12px;
-}
+  .hero-general__mobile div a {
+    padding: 0 68px;
+  }
 }
 
 
@@ -182,17 +182,14 @@
     right: -21px;
     height: 520px;
   }
+  .hero-general__mobile div a {
+    padding: 0 0;
+  }
 }
 
 @media (max-width: 426px) {
   .hero-general__mobile div a {
-    padding: 0 4px;
-  }
-}
-
-@media (max-width: 415px) {
-  .hero-general__mobile div a {
-    padding: 0 0;
+    padding: 0 52px;
   }
 }
 @media (max-width: 376px) {

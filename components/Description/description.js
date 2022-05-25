@@ -19,17 +19,17 @@ export default function Description() {
                         <h1 className="description-general__title">Связаться с нами</h1>
                         <div className="description-general__contact">
                             <div className="description-general__set" >
-                                <a href="tel:">0707-70-70-70</a>
+                                <a href="tel:0706-00-10-14">0706-00-10-14</a>
                                 <div>
-                                    <span><i className="fab fa-telegram"></i></span>
-                                    <span><i className="fab fa-whatsapp"></i></span>
+                                    <a href="https://t.me/@islamsaatbekuulu"><i className="fab fa-telegram"></i></a>
+                                    <a href="https://wa.me/message/T5LHXZGIZVIZM1"><i className="fab fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div className="description-general__set" >
-                                <a href="tel:">0707-70-70-70</a>
+                                <a href="tel:0706-00-10-14">0706-00-10-14</a>
                                 <div>
-                                    <span><i className="fab fa-telegram"></i></span>
-                                    <span><i className="fab fa-whatsapp"></i></span>
+                                    <a href="https://t.me/@islamsaatbekuulu"><i className="fab fa-telegram"></i></a>
+                                    <a href="https://wa.me/message/T5LHXZGIZVIZM1"><i className="fab fa-whatsapp"></i></a>
                                 </div>
                             </div>
                         </div>

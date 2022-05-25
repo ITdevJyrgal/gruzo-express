@@ -16,8 +16,8 @@ export default function Footer() {
                         <Image src={logo} alt="img"/>
                     </div>
                     <div className="footer-general__contact">
-                        <a href="tel:" className="footer-general__tel" >0707-70-70-70</a>
-                        <a href="tel:" className="footer-general__tel" >0707-70-70-70</a>
+                        <a href="tel:0706-00-10-14" className="footer-general__tel" >0706-00-10-14</a>
+                        <a href="tel:0706-00-10-14" className="footer-general__tel" >0706-00-10-14</a>
                     </div>
 
                 </div>

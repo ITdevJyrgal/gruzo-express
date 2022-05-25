@@ -52,14 +52,14 @@ function Navbar() {
 
                         <div>
                             <div className="burger-general__square">
-                                <a href="#">  <i className="fab fa-telegram"/></a>
-                                <a href="#"> <i className="fab fa-whatsapp"/></a>
-                                <a href="tel:">0770-70-70-70</a>
+                                <a href="https://t.me/@islamsaatbekuulu">  <i className="fab fa-telegram"/></a>
+                                <a href="https://wa.me/message/T5LHXZGIZVIZM1"> <i className="fab fa-whatsapp"/></a>
+                                <a href="tel:0706-00-10-14">0706-00-10-14</a>
                             </div>
                             <div className="burger-general__square">
-                                <a href="#"> <i className="fab fa-telegram"/></a>
-                                <a href="#">  <i className="fab fa-whatsapp"/></a>
-                                <a href="tel:">0770-70-70-70</a>
+                                <a href="https://t.me/@islamsaatbekuulu"> <i className="fab fa-telegram"/></a>
+                                <a href="https://wa.me/message/T5LHXZGIZVIZM1">  <i className="fab fa-whatsapp"/></a>
+                                <a href="tel:0706-00-10-14">0706-00-10-14</a>
                             </div>
                         </div>
                     </ul>
